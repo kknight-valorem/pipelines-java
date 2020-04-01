@@ -8,9 +8,9 @@ trigger:
 
 strategy:
   matrix:
-    jdk15_linux:
+    jdk14_linux:
       imageName: "ubuntu-16.04"
-      jdk_version: "1.15"
+      jdk_version: "1.14"
     jdk16_windows:
       imageName: "vs2017-win2016"
       jdk_version: "1.16"
